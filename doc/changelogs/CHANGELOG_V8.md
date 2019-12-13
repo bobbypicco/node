@@ -10,6 +10,7 @@
 </tr>
 <tr>
 <td valign="top">
+<a href="#8.17.0">8.17.0</a><br/>
 <a href="#8.16.2">8.16.2</a><br/>
 <a href="#8.16.1">8.16.1</a><br/>
 <a href="#8.16.0">8.16.0</a><br/>
@@ -64,6 +65,25 @@
 *Note*: Node.js v8 is covered by the
 [Node.js Long Term Support Plan](https://github.com/nodejs/LTS) and
 will be supported actively until April 2019 and maintained until December 2019.
+
+<a id="8.17.0"></a>
+## 2019-12-17, Version 8.17.0 'Carbon' (LTS), @MylesBorins
+
+This is a security release.
+
+This release includes a single commit, an update to npm to 6.13.4.
+
+For more details about the vulnerability please consult the npm blog:
+
+https://blog.npmjs.org/post/189618601100/binary-planting-with-the-npm-cli
+
+### Notable changes
+
+* **deps**: update npm to 6.13.4 [#30904](https://github.com/nodejs/node/pull/30904)
+
+### Commits
+
+* [[`369a23a670`](https://github.com/nodejs/node/commit/369a23a670)] - **deps**: update npm to 6.13.4 (Audrey Eschright) [#30904](https://github.com/nodejs/node/pull/30904)
 
 <a id="8.16.2"></a>
 ## 2019-10-09, Version 8.16.2 'Carbon' (LTS), @BethGriggs
